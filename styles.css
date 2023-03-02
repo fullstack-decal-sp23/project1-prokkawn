@@ -8,12 +8,24 @@
     margin-right: auto;
 }
 
+.grid-container {
+    grid-template-columns: auto auto;
+    display: grid;
+    gap: 50px;
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+}
+
 * {
     background-color: darkcyan;
     color: white;
 }
 
 ul {
+    position: sticky;
     display: flex;
     align-items: stretch;
     justify-content: space-between;
@@ -41,3 +53,26 @@ li a {
 li a:hover {
     background-color: #111111;
 }
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25%;
+  }
+
+  .fa:hover {
+    opacity: 70%;
+  }
+
+  .fa-instagram {
+    background: rgb(195, 26, 225);
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: rgb(13, 51, 222);
+    color: white;
+  }
